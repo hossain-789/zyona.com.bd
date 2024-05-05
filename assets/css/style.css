@@ -1,0 +1,1100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Lato:wght@400;900&family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+/* font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav_a {
+    text-decoration: none;
+}
+
+.nav_a:hover {
+    color: #000;
+}
+
+
+.bg-image {
+    background-image: url('https://static.wixstatic.com/media/09f97d_13580be891434018a2c431594f12b6af~mv2.png/v1/fill/w_1274,h_451,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/09f97d_13580be891434018a2c431594f12b6af~mv2.png');
+    background-size: cover;
+}
+
+.bg-image-about {
+    background-image: url('https://static.wixstatic.com/media/09f97d_13580be891434018a2c431594f12b6af~mv2.png/v1/fill/w_1274,h_451,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/09f97d_13580be891434018a2c431594f12b6af~mv2.png');
+    background-size: cover;
+    min-height: 300px;
+}
+
+.bg-image-service {
+    background-image: url('https://static.wixstatic.com/media/f963d2b6f4a949d6869164eabd786c38.jpg/v1/fill/w_1146,h_488,al_t,q_85,enc_auto/f963d2b6f4a949d6869164eabd786c38.jpg');
+    background-size: cover;
+    min-height: 350px;
+}
+
+.bg-image-discover-service {
+    background-image: url('https://static.wixstatic.com/media/09f97d_13580be891434018a2c431594f12b6af~mv2.png/v1/fill/w_1274,h_451,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/09f97d_13580be891434018a2c431594f12b6af~mv2.png');
+    background-size: cover;
+    min-height: 300px;
+}
+
+
+.bg-image-discover-service-1 {
+    background-image: url('../image/services/image-1.png');
+    background-size: cover;
+    min-height: 400px;
+}
+
+.bg-image-discover-service-2 {
+    background-image: url('../image/services/image-2.png');
+    background-size: cover;
+    min-height: 200px;
+}
+
+.one-edge-shadow {
+    padding: 10px;
+    /* box-shadow: 0 8px 6px -6px black; */
+    /* box-shadow: 0px 0px 3px 2px #ccc; */
+}
+
+.header-icon i {
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* navber */
+.location-icon {
+    color: #ffff;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.location-address {
+    color: #ffff;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.call-icon {
+    font-size: 20px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+.call {
+    color: #ffff;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.kkliu {
+    margin-left: 74px;
+    color: #ffff;
+    font-size: 11px;
+}
+
+.line-1 {
+    background-color: #ffff;
+    width: 100%;
+    height: 2px;
+    margin: 5px;
+}
+
+.line-2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+    margin: 5px;
+}
+
+.button-line {
+    margin-top: 4px;
+    margin-left: 5rem;
+    position: absolute;
+    background-color: #ffff;
+    height: 19px;
+    width: 2px;
+}
+
+/* Navber items */
+.nav-items ul {
+    list-style: none;
+}
+
+.nav-items li a {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    margin: 45px;
+}
+
+.shop-icon {
+    font-size: 25px;
+    margin-left: 50px;
+
+}
+
+/* Voted as one of the */
+.discription {
+    /* margin-top: -30rem;
+    margin-left: 5rem; */
+}
+
+.discription h4 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.discription h1 {
+    color: #FFFFFF;
+}
+
+.discription h6 {
+    color: #FFFFFF;
+}
+
+.book-consultation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #FFFFFF;
+    height: 46px;
+    width: 265px;
+}
+
+.book-consultation button {
+    color: #000;
+    border-radius: 0px;
+    background-color: #FFF;
+    margin-left: 1px;
+    width: 259px;
+    height: 40px;
+    margin-top: 1px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
+/* OUR GOAL */
+.line-4 {
+    background-color: #6B7986;
+    width: 100%;
+    height: 2px;
+}
+
+.line-5 {
+    margin-top: 4px;
+    background-color: #6B7986;
+    width: 100%;
+    height: 1px;
+}
+
+.inspire p {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 26px;
+    color: #6B7986;
+    font-weight: 300;
+}
+
+.line-6 {
+    background-color: #6B7986;
+    width: 100%;
+    height: 1px;
+}
+
+.line-7 {
+    margin-top: 4px;
+    background-color: #6B7986;
+    width: 100%;
+    height: 2px;
+}
+
+.book-ENQUIRE {
+    /* margin-left: 27rem; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 25px; */
+    border: 2px solid #000000;
+    height: 46px;
+    width: 265px;
+    /* position: relative; */
+}
+
+.book-ENQUIRE button {
+    color: #000;
+    border-radius: 0px;
+    background-color: #ffffffdb;
+    margin-left: 1px;
+    width: 259px;
+    height: 40px;
+    margin-top: 1px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+/* Why Choose Dr. A Clinic */
+.Choose-clinic {
+    margin: 3rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.Choose-clinic h1 {
+    font-weight: 600;
+}
+
+
+/* skin */
+.card-1 {
+    /* width: 16rem; */
+    background: #D9E6EE;
+    border: none;
+    border-radius: 0px;
+    /* height: 280px; */
+}
+
+.card-body h3 {
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0C4978;
+
+}
+
+.card-body h1 {
+    color: #AC7B18;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.card-body h5 {
+    font-weight: 300;
+    color: #78A2DC;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* OUR SPECIALTY */
+.SPECIALTY h1 {
+    color: #FFF;
+    /* margin-top: -48rem;
+    margin-left: 12rem; */
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.enhance p {
+    color: #FFF;
+    /* margin-top: -45rem; */
+    /* height: 300px; */
+    /* width: 374px; */
+    line-height: 18px;
+}
+
+.line-8 {
+    margin: auto;
+    height: 1px;
+    width: 73rem;
+    background-color: #FFFFFF;
+    /* position: absolute; */
+    /* margin-left: 74px; */
+
+}
+
+.line-9 {
+    margin: auto;
+    height: 1px;
+    width: 73rem;
+    background-color: #FFFFFF;
+    /* position: absolute; */
+    /* margin-left: 74px;*/
+}
+
+.card-2 {
+    /* width: 13rem; */
+}
+
+.card-2 h3 {
+    /* margin-left: -22px; */
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.card-2 p {
+    /* margin-left: -22px; */
+    color: #FFFFFF;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.more-services {
+    margin-top: 2rem;
+    margin-right: 3rem;
+    border: 2px solid #FFFFFF;
+    height: 46px;
+    width: 265px;
+}
+
+.more-services button {
+    color: #000;
+    border-radius: 0px;
+    background-color: #FFF;
+    margin-left: 1px;
+    width: 259px;
+    height: 40px;
+    margin-top: 1px;
+    font-size: 10px;
+    line-height: 10px;
+
+}
+
+/* Reach Out */
+
+.card-Reach h1 {
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.card-Reach p {
+    font-size: 14px;
+    color: #FFFFFF;
+    /* margin-left: 5rem; */
+}
+
+.card-name {
+    font-size: 14px;
+    color: #FFFFFF;
+    /* margin-left: 5rem; */
+}
+
+.card-name input {
+    background-color: #fff;
+    border: 1px solid #FFF;
+}
+
+.card-email {
+    font-size: 14px;
+    color: #FFFFFF;
+    /* margin-top: 15px;
+    margin-left: 5rem; */
+}
+
+.card-email input {
+    background-color: #fff;
+    border: 1px solid #FFF;
+}
+
+.Leave {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 5rem;
+}
+
+.line-10 {
+    margin-top: 20px;
+    margin: auto;
+    background: #fff;
+    height: 2px;
+    width: 74%;
+}
+
+.submit {
+    height: 4rem;
+}
+
+.submit button {
+    color: #eda269;
+    border-radius: 0%;
+}
+
+.book-apointmnet {
+    margin: auto;
+    border: 2px solid #312d2d;
+    height: 46px;
+    width: 265px;
+    position: relative;
+}
+
+.book-apointmnet button {
+    color: #000;
+    border-radius: 0px;
+    background-color: #FFF;
+    margin-left: 1px;
+    width: 259px;
+    height: 40px;
+    margin-top: 1px;
+    font-size: 10px;
+    line-height: 10px;
+
+}
+
+/* footer */
+.background {
+    background-color: #152635;
+    height: 25rem;
+    width: 100%;
+}
+
+.logo img {
+    margin-top: 17rem;
+}
+
+.circle {
+    line-height: 21px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -22rem;
+    margin-left: 15rem;
+}
+
+.circle i {
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    height: 17px;
+    width: 16px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 10px;
+}
+
+
+.location {
+    /* margin-left: 15rem; */
+    /* margin-top: 4rem; */
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.contract {
+    font-size: 14px;
+    /* margin-left: 15rem;
+    margin-top: 6rem; */
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.watsapp {
+    border: none;
+    border-radius: 0%;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.facebook-icon {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.Privacy h6 {
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: end;
+}
+
+.privacy_link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.privacy_link:hover {
+    color: #d87171;
+}
+
+
+
+
+
+/* ################# */
+/* ################# */
+/* ################# */
+/* ################# */
+/* ################# */
+/* ################# */
+/* about-us */
+.line-3 {
+    background-color: #E6D99B;
+    width: 44%;
+    height: 1px;
+    margin: auto;
+}
+
+.about-items h1 {
+    color: #FFFFFF;
+    /* margin-top: -21rem; */
+    font-size: 74px;
+}
+
+.about-items h3 {
+    color: #ffffff;
+    /* margin-top: 2rem; */
+    font-size: 33px;
+    letter-spacing: 9px;
+}
+
+.integrated {
+    font-size: 15px;
+    /* margin-left: 20rem; */
+    color: #FFFFFF;
+    width: 42rem;
+    /* margin-top: 3rem; */
+}
+
+.emphasise {
+    /* margin-left: 20rem; */
+    color: #FFFFFF;
+    width: 42rem;
+    /* margin-top: -1rem; */
+    font-size: 15px;
+}
+
+
+/* Professional */
+.icon {
+    margin: auto;
+    font-size: 65px;
+    color: #42505D;
+    border: 2px solid #E6D99B;
+    border-radius: 86px;
+    height: 150px;
+    width: 150px;
+}
+
+.icon i {
+    margin-top: 40px;
+}
+
+.card-Teamwork h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.card-Teamwork h5 {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Our Gallery */
+.line-5 {
+    background-color: #E6D99B;
+    width: 100%;
+    height: 1px;
+    /* position: absolute; */
+    /* margin-left: 202px;
+    margin-top: 21rem; */
+}
+
+
+.gallery-discription h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+.gallery-discription p {
+    margin-top: 15px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    line-height: 18px;
+    width: 13rem;
+    font-size: 15px;
+}
+
+.carousel-inner {
+    /* margin-top: 24px; */
+}
+
+
+/* DR. MEET OUR TEAM */
+/* DR. ARIEL CHANG */
+.ARIEL-CHANG-left {
+    margin-left: 10rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+
+}
+
+.ARIEL-CHANG-right {
+    margin-top: -345px;
+    margin-left: 11rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+}
+
+.ARIEL-CHANG-doctors img {
+    margin-top: -356px;
+    margin-left: 15rem;
+    border-radius: 20px;
+}
+
+
+/* DR. TAN WY */
+.TAN-WY-left {
+    margin-left: -102px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+
+}
+
+.TAN-WY-right {
+    margin-top: -345px;
+    margin-left: -127px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+}
+
+.TAN-WY-doctors img {
+    margin-top: -356px;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+
+/* DR. CHLOE TAN */
+.CHLOE-TAN-left {
+    margin-left: 10rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+
+}
+
+.CHLOE-TAN-right {
+    margin-top: -345px;
+    margin-left: 11rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+}
+
+.CHLOE-TAN-doctors img {
+    margin-top: -356px;
+    margin-left: 15rem;
+    border-radius: 20px;
+}
+
+
+/* DR. CHU YL */
+
+.CHU-YL-left {
+    margin-left: -102px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+
+}
+
+.CHU-YL-right {
+    margin-top: -345px;
+    margin-left: -127px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+}
+
+.CHU-YL-doctors img {
+    margin-top: -356px;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+
+
+/* jane-lim */
+
+.jane-title {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 80%;
+}
+
+.jane-title h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.jane-title p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: -13px;
+}
+
+.jane-paragraph p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+/* Featured Products */
+/* Featured Products */
+/* Featured Products */
+/* Featured Products */
+/* Featured Products */
+/* Featured Products */
+.Specially-title h1 {
+    color: #FFFFFF;
+    margin-top: -11rem;
+    text-transform: uppercase;
+    font-size: 37px;
+
+}
+
+.Featured h1 {
+    font-size: 27px;
+    color: #152635;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.offer_img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.card-body img {
+    height: 180px;
+    width: 100%;
+}
+
+
+.card-body h2 {
+    line-height: 18px;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 14px;
+
+}
+
+.card-body h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.card-body h4 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.card-body button {
+    font-size: 12px;
+    border: 1px solid #BDBDBD;
+    height: 25px;
+    width: 85px;
+    line-height: 11px;
+    background-color: #F0F0F0;
+    color: #000000;
+    font-weight: 700;
+}
+
+.card-body p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+
+/* Services */
+/* Services */
+/* Services */
+/* Services */
+/* Services */
+/* Services */
+
+/* SOMETHING FOR */
+.wow-image img {
+    width: 100%;
+}
+
+.card-type {
+    width: 25rem;
+    margin-top: -28rem;
+    margin-left: 9rem;
+
+}
+
+.card-title {
+    color: #152635;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Everyone {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.book-consultation {
+    margin-top: 50px;
+    border: 1px solid #0B2F5B;
+    height: 44px;
+    width: 263px;
+    position: relative;
+}
+
+
+.book-consultation button {
+    color: #ffffff;
+    border-radius: 0px;
+    background-color: #0B2F5B;
+    margin-left: 1px;
+    width: 259px;
+    height: 40px;
+    margin-top: 1px;
+    font-size: 10px;
+    line-height: 10px;
+
+}
+
+.book-consultation button:hover {
+    background-color: #DBB89A !important;
+}
+
+/* SOMETHING FOR */
+/* brand-color */
+.brand-color {
+    background: #F0F0F0;
+    width: 100%;
+    /* height: 18%; */
+    /* margin-top: 68px; */
+}
+
+
+
+/* DISCOVER OUR SERVICES */
+.underline {
+    margin-top: -10px;
+    margin-left: 72px;
+    border-bottom: 2px solid #FFFFFF;
+    position: relative;
+}
+
+
+/* Skin Concerns & Facial Rejuvenation */
+
+.Skin-Concerns {
+    font-size: 37px;
+    font-weight: 600;
+    /* margin-left: 5.4rem; */
+}
+
+.Skin-Concerns-items {
+    /* margin-left: 10rem; */
+
+}
+
+.Concerns-2 li {
+    /* margin-left: 4rem; */
+}
+
+
+.Skin-Concerns-items a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #212529;
+
+}
+
+.Skin-Concerns-items li {
+    line-height: 40px;
+}
+
+/* CONTACT US */
+/* .card {
+    margin-left: 32rem;
+
+}
+
+.card-name {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 5rem;
+} */
+
+.last-name {
+    margin-left: 247px;
+}
+
+.phone {
+    margin-left: 289px;
+}
+
+.fast-box {
+    color: #FFFFFF;
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid #FFFFFF !important;
+    width: 18rem;
+}
+
+.last-box {
+    color: #FFFFFF;
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid #FFFFFF !important;
+    width: 18rem;
+    margin-left: 50px;
+}
+
+.message label {
+    font-size: 14px;
+    margin-left: 5rem;
+}
+
+.message input {
+    color: #FFFFFF;
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid #FFFFFF !important;
+    width: 39rem;
+    margin-left: 5rem;
+}
+
+
+.submit {
+    height: 4rem;
+
+}
+
+.submit button {
+    color: #eda269;
+    border-radius: 0%;
+    font-size: 22px;
+    width: 200px;
+    font-weight: 600;
+}
+
+
+.contact-us {
+    /* margin-top: -25rem;
+    margin-left: 5rem; */
+    color: #FFFFFF;
+}
+
+.contact-us h1 {
+    color: #DBC38B;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.contact-us h4 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+.contact-us button {
+    border: none;
+    background: none;
+    border-radius: 0%;
+    border-bottom: 2px solid #FFFFFF;
+    font-weight: 600;
+}
+
+.years-title-body {
+    font-size: 55px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
+.years-beautypress-gradient-separetor {
+    display: block;
+    height: 2px;
+    width: 130px;
+    background-image: -webkit-linear-gradient(175deg, rgba(236, 85, 152, 0) 0%, rgba(236, 85, 152, 0.26) 24%, rgba(236, 85, 152, 0.5) 46%, rgb(236, 85, 152) 100%);
+}
+
+.years-title {
+    font-size: 60px;
+    margin-left: -40px;
+
+}
+
+.years-title h2 {
+    color: #f0f0f0;
+    font-size: 2.419em;
+    z-index: -1;
+    opacity: 1;
+}
+
+
+
+
+.parallax {
+    background-image: url("https://kaftechbd.com/zyona/assets/image/sliders/f963d2b6f4a949d6869164eabd786c38.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_overlay_items {
+    min-height: 925px;
+    background-color: rgb(80, 151, 199, 0.3);
+}
+
+.mobile_navbar{
+    display: none !important;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+    .desktop_navbar {
+        display: none;
+    }
+
+    .mobile_navbar{
+        display: block !important;
+    }
+
+    .years-title-body {
+        font-size: 30px;
+    }
+
+    .gallery-discription h1 {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    .gallery-discription p {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,192 @@
+
+/* SOMETHING FOR */
+.wow-image img {
+    width: 100%;
+}
+
+.card-type {
+    width: 25rem;
+    margin-top: -28rem;
+    margin-left: 9rem;
+
+}
+
+.card-title {
+    color: #152635;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Everyone {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.book-consultation {
+    margin-top: 50px;
+    border: 1px solid #0B2F5B;
+    height: 44px;
+    width: 263px;
+    position: relative;
+}
+
+
+.book-consultation button {
+    color: #ffffff;
+    border-radius: 0px;
+    background-color: #0B2F5B;
+    margin-left: 1px;
+    width: 259px;
+    height: 40px;
+    margin-top: 1px;
+    font-size: 10px;
+    line-height: 10px;
+
+}
+
+.book-consultation button:hover {
+    background-color: #DBB89A !important;
+}
+
+/* SOMETHING FOR */
+/* brand-color */
+.brand-color {
+    background: #F0F0F0;
+    width: 100%;
+    height: 18%;
+    margin-top: 68px;
+}
+
+
+
+/* DISCOVER OUR SERVICES */
+.underline {
+    margin-top: -10px;
+    margin-left: 72px;
+    border-bottom: 2px solid #FFFFFF;
+    position: relative;
+}
+
+
+/* Skin Concerns & Facial Rejuvenation */
+
+.Skin-Concerns {
+    font-size: 37px;
+    font-weight: 600;
+    margin-left: 5.4rem;
+}
+
+.Skin-Concerns-items {
+    margin-left: 10rem;
+
+}
+
+.Concerns-2 li {
+    margin-left: 4rem;
+}
+
+
+.Skin-Concerns-items a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #212529;
+
+}
+
+.Skin-Concerns-items li {
+    line-height: 40px;
+
+
+}
+
+/* CONTACT US */
+.card {
+    margin-left: 32rem;
+
+}
+
+.card-name {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 5rem;
+}
+
+.last-name {
+    margin-left: 247px;
+}
+
+.phone {
+    margin-left: 289px;
+}
+
+.fast-box {
+    color: #FFFFFF;
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid #FFFFFF !important;
+    width: 18rem;
+}
+
+.last-box {
+    color: #FFFFFF;
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid #FFFFFF !important;
+    width: 18rem;
+    margin-left: 50px;
+}
+
+.message label {
+    font-size: 14px;
+    margin-left: 5rem;
+}
+
+.message input {
+    color: #FFFFFF;
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid #FFFFFF !important;
+    width: 39rem;
+    margin-left: 5rem;
+}
+
+
+.submit {
+    height: 6rem;
+
+}
+
+.submit button {
+    color: #eda269;
+    border-radius: 0%;
+    font-size: 22px;
+    width: 200px;
+    font-weight: 600;
+}
+
+
+.contact-us {
+    margin-top: -25rem;
+    margin-left: 5rem;
+    color: #FFFFFF;
+}
+
+.contact-us h1 {
+    color: #DBC38B;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.contact-us h4 {    
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+.contact-us button {
+    border: none;
+    background: none;
+    border-radius: 0%;
+    border-bottom: 2px solid #FFFFFF;
+    font-weight: 600;
+}

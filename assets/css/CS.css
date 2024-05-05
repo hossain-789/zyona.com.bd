@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navber */
+.location-icon {
+    color: #ffff;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.location-address {
+    color: #ffff;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.call-icon {
+    font-size: 20px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+.call {
+    color: #ffff;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.kkliu {
+    margin-left: 74px;
+    color: #ffff;
+    font-size: 11px;
+}
+
+.line-1 {
+    background-color: #ffff;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.line-2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+    margin-top: 33px;
+
+}
+
+.button-line {
+    margin-top: 4px;
+    margin-left: 5rem;
+    position: absolute;
+    background-color: #ffff;
+    height: 19px;
+    width: 2px;
+}
+
+/* Navber items */
+.nav-items ul {
+    list-style: none;
+}
+
+.nav-items li a {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    margin: 45px;
+}
+
+.shop-icon {
+    font-size: 25px;
+    margin-left: 50px;
+
+}
+
+
+/* about-us */
+.line-3 {
+    background-color: #E6D99B;
+    width: 44%;
+    height: 1px;
+    margin-top: 169px;
+    position: absolute;
+    margin-left: 22rem;
+}
+
+.about-items h1 {
+    color: #FFFFFF;
+    margin-top: -21rem;
+    font-size: 74px;
+}
+
+.about-items h3 {
+    color: #ffffff;
+    margin-top: 2rem;
+    font-size: 33px;
+    letter-spacing: 9px;
+}
+
+.integrated {
+    font-size: 15px;
+    margin-left: 20rem;
+    color: #FFFFFF;
+    width: 42rem;
+    margin-top: 3rem;
+}
+
+.emphasise {
+    margin-left: 20rem;
+    color: #FFFFFF;
+    width: 42rem;
+    margin-top: -1rem;
+    font-size: 15px;
+}
+
+
+/* Professional */
+.icon {
+    margin-left: 45px;
+    font-size: 65px;
+    color: #42505D;
+    border: 2px solid #E6D99B;
+    border-radius: 86px;
+    height: 150px;
+    width: 150px;
+}
+
+.icon i {
+    margin-top: 40px;
+}
+
+.card-Teamwork h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.card-Teamwork h5 {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Our Gallery */
+.line-5 {
+    background-color: #E6D99B;
+    width: 22%;
+    height: 1px;
+    position: absolute;
+    margin-left: 202px;
+    margin-top: 21rem;
+}
+
+.background-gallary {
+    background-color: #152635;
+    height: 30rem;
+    width: 78%;
+    margin-left: 5rem;
+}
+
+.gallery-discription {
+    margin-top: -25rem;
+    margin-left: 9rem;
+}
+
+.gallery-discription h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.gallery-discription p {
+    margin-top: 15px;
+    color: #FFFFFF;
+    line-height: 18px;
+    width: 13rem;
+    font-size: 15px;
+}
+
+.carousel-inner {
+    margin-top: 24px;
+}
+
+
+/* DR. MEET OUR TEAM */
+/* DR. ARIEL CHANG */
+.ARIEL-CHANG-left {
+    margin-left: 10rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+
+}
+
+.ARIEL-CHANG-right {
+    margin-top: -345px;
+    margin-left: 11rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+}
+
+.ARIEL-CHANG-doctors img {
+    margin-top: -356px;
+    margin-left: 15rem;
+    border-radius: 20px;
+}
+
+
+/* DR. TAN WY */
+.TAN-WY-left {
+    margin-left: -102px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+
+}
+
+.TAN-WY-right {
+    margin-top: -345px;
+    margin-left: -127px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+}
+
+.TAN-WY-doctors img {
+    margin-top: -356px;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+
+/* DR. CHLOE TAN */
+.CHLOE-TAN-left {
+    margin-left: 10rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+
+}
+
+.CHLOE-TAN-right {
+    margin-top: -345px;
+    margin-left: 11rem;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-right: 3px solid #B89675;
+}
+
+.CHLOE-TAN-doctors img {
+    margin-top: -356px;
+    margin-left: 15rem;
+    border-radius: 20px;
+}
+
+
+/* DR. CHU YL */
+
+.CHU-YL-left {
+    margin-left: -102px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+
+}
+
+.CHU-YL-right {
+    margin-top: -345px;
+    margin-left: -127px;
+    height: 23rem;
+    width: 30rem;
+    border-top: 3px solid #B89675;
+    border-left: 3px solid #B89675;
+}
+
+.CHU-YL-doctors img {
+    margin-top: -356px;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+
+
+/* jane-lim */
+
+.jane-title {
+    margin-top: -15rem;
+    margin-left: 31rem;
+    width: 53%;
+}
+
+.jane-title h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.jane-title p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: -13px;
+}
+
+.jane-paragraph p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* footer */
+.background {
+    background-color: #152635;
+    height: 25rem;
+    width: 100%;
+}
+
+.logo img {
+    margin-top: 17rem;
+}
+
+.circle {
+    line-height: 21px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -22rem;
+    margin-left: 15rem;
+}
+
+.circle i {
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    height: 17px;
+    width: 16px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 10px;
+}
+
+
+.location {
+    margin-left: 15rem;
+    margin-top: 4rem;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.contract {
+    font-size: 14px;
+    margin-left: 15rem;
+    margin-top: 6rem;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.watsapp {
+    border: none;
+    border-radius: 0%;
+    text-align: end;
+    margin-right: 87px;
+    margin-top: -17rem;
+}
+
+.facebook-icon {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 130px;
+    margin-top: 2rem;
+}
+
+.Privacy {
+    margin-top: 7rem;
+}
+
+.Privacy h6 {
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: end;
+    margin-right: 74px;
+}
